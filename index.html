@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>project one</title>
 </head>
 <body>
-    <h1>Project one huhuhu   bbbbbb</h1>
+    <h1>Project one</h1>
+    <form action="" method="post"> 
+        <div class="form-field">
+        Emeil
+        <input type="email" name="email" required>
+    </div>
+    <div class="form-field">
+        Username
+        <input type="text" name="username">
+    </div>
+    <div class="form-field">
+        Password
+        <input 
+        type="password" 
+        name="password" 
+        required
+        minlength="5"
+        maxlength="32"
+        pattern="/">
+    </div>
+    <label class="check-field">
+        <input type="checkbox" name="terms" required>
+        I agree with terms and conditions
+    </label>
+    <label class="check-field">
+        <input type="checkbox" name="remember" checked>
+        Remember me
+    </label>
+    
+    <button>Sing in</button>
+    </form>
 </body>
 </html>
